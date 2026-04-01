@@ -28,8 +28,7 @@
     "type:check:client": "tsc --noEmit --project tsconfig.app.json",
     "type:check:server": "tsc --noEmit --project tsconfig.node.json",
     "lint": "node ./scripts/lint.js",
-    "format": "prettier --write \"{server,client,test}/**/*.{js,ts,tsx,json,md}\"",
-    //"postinstall": "fullstack-cli action-plugin init"
+    "format": "prettier --write \"{server,client,test}/**/*.{js,ts,tsx,json,md}\""
   },
   "dependencies": {
     "@lark-apaas/fullstack-nestjs-core": "^1.1.22",
