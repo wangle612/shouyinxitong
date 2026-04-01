@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, HashRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Layout from './components/Layout';
 import NotFound from './pages/NotFound/NotFound';
@@ -7,7 +7,7 @@ import CashierPage from './pages/CashierPage/CashierPage';
 import ProductsPage from './pages/ProductsPage/ProductsPage';
 import OrdersPage from './pages/OrdersPage/OrdersPage';
 
-const HashRouter = () => {
+const RoutesComponent = () => {
   return (
     <Routes>
       <Route element={<Layout />}>
